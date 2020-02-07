@@ -1,0 +1,74 @@
+admins:
+- scheeles
+- fairhaven
+billing_email: billing@loodse.com
+company: ""
+default_repository_permission: write
+description: ""
+email: info@loodse.com
+has_organization_projects: true
+has_repository_projects: true
+location: Hamburg
+members:
+members_can_create_repositories: true
+name: Loodse-Labs
+repos:
+  craft-kubernetes-workshop:
+    description: Craft Kubernetes Workshop
+    has_issues: false
+    has_projects: true
+  docs:
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    description: Documentation for Loodse products
+    has_projects: true
+    homepage: https://docs.loodse.com/
+  eos-techlab:
+    has_projects: true
+  helm-training:
+    has_projects: true
+  jsonresume-theme-kards:
+    default_branch: loodse
+    has_issues: false
+    has_projects: true
+  k8s-exercises:
+    has_projects: true
+  k8s-magicless:
+    description: Snippets for manual K8s installation. Derived from k8s-the-hard-way.
+    has_issues: false
+    has_projects: true
+  kubectl-hacking:
+    description: '$ kubectl hacking - my journey with kate '
+    has_projects: true
+  kubernetes:
+    description: Container Cluster Manager from Google
+    has_issues: false
+    has_projects: true
+    homepage: http://kubernetes.io
+  kubernetes-lab:
+    has_projects: true
+  kubernetes-network-policy-recipes:
+    description: Tutorials and Recipes for Kubernetes Network Policies feature
+    has_issues: false
+    has_projects: true
+  kubernetes-the-hard-way:
+    default_branch: openstack
+    description: Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.
+    has_issues: false
+    has_projects: true
+  kubeterra:
+    description: K8s operator for Terraform - Manage your Terraform environment with
+      Kubernetes!
+    has_projects: true
+  limitcheck:
+    has_projects: true
+  microservices-demo:
+    description: Sample cloud-native microservices application composed of 10 tiers
+    has_issues: false
+    has_projects: true
+    homepage: http://frontend-external-static.default.svc.hipstershop.us-central1-b.microservices-demo-app.apps.kubernetes.tips/
+  prow-dashboards:
+    description: A collection of Prometheus rules and Grafana dashboards for monitoring
+      Prow clusters
+    has_projects: false
+    has_wiki: false
