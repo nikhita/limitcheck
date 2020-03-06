@@ -1,6 +1,7 @@
 admins:
 - scheeles
 - fairhaven
+- kubermatic-bot
 billing_email: billing@loodse.com
 company: ""
 default_repository_permission: write
